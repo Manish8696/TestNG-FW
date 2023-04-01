@@ -1,6 +1,8 @@
 package com.inetBankingV1.testCases;
 
 
+import java.util.concurrent.TimeUnit;
+
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.WebDriver;
@@ -25,6 +27,7 @@ public class BaseClass {
 	public String password = read.getPassword();
 	public static WebDriver driver;
 	public static Logger logger;
+	@SuppressWarnings("deprecation")
 	@Parameters("browser")
 	@BeforeClass
 	public void setup(String br) {
@@ -41,6 +44,7 @@ public class BaseClass {
 			System.setProperty("webdriver.gecko.driver","C:\\Users\\moolya\\eclipse-workspace\\inetBankingV1\\Driver\\geckodriver.exe");
 			driver = new FirefoxDriver();
 		}
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		
 		 driver.manage().deleteAllCookies();
 		 driver.manage().window().maximize();

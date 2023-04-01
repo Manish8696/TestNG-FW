@@ -23,6 +23,9 @@ WebElement password;
 @FindBy(name ="btnLogin")
 WebElement clickon;
 
+@FindBy(xpath="//*[text()='Log out']")
+WebElement logout;
+
 public void setUserName(String user) {
 	userName.sendKeys(user);
 }
@@ -34,5 +37,8 @@ public void setPassword(String pass) {
 
 public void clickOn() {
 	clickon.click();
+}
+public void logout() {
+	logout.click();
 }
 }
