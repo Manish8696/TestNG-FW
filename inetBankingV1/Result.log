@@ -1,0 +1,57 @@
+2023-03-30 19:17:05,952  INFO [main] ebanking:14 - URL is opened
+ 2023-03-30 19:17:06,120  INFO [main] ebanking:19 - enter username
+ 2023-03-30 19:17:06,172  INFO [main] ebanking:23 - enter password
+ 2023-03-30 19:17:10,522  INFO [main] ebanking:30 - Login test passed
+ 2023-04-01 03:08:46,649  INFO [main] ebanking:14 - URL is opened
+ 2023-04-01 03:08:46,897  INFO [main] ebanking:19 - enter username
+ 2023-04-01 03:08:47,214  INFO [main] ebanking:23 - enter password
+ 2023-04-01 03:08:48,613  INFO [main] ebanking:30 - Login test passed
+ 2023-04-01 03:09:18,120  INFO [main] ebanking:14 - URL is opened
+ 2023-04-01 03:09:18,334  INFO [main] ebanking:19 - enter username
+ 2023-04-01 03:09:18,641  INFO [main] ebanking:23 - enter password
+ 2023-04-01 03:09:20,283  INFO [main] ebanking:30 - Login test passed
+ 2023-04-01 03:09:59,360  INFO [main] ebanking:14 - URL is opened
+ 2023-04-01 03:09:59,570  INFO [main] ebanking:19 - enter username
+ 2023-04-01 03:09:59,765  INFO [main] ebanking:23 - enter password
+ 2023-04-01 03:10:01,100  INFO [main] ebanking:30 - Login test passed
+ 2023-04-01 11:34:56,629  INFO [main] ebanking:14 - URL is opened
+ 2023-04-01 11:34:56,797  INFO [main] ebanking:19 - enter username
+ 2023-04-01 11:34:57,020  INFO [main] ebanking:23 - enter password
+ 2023-04-01 11:34:58,001  INFO [main] ebanking:30 - Login test passed
+ 2023-04-01 12:56:18,577  INFO [main] ebanking:14 - URL is opened
+ 2023-04-01 12:56:18,845  INFO [main] ebanking:19 - enter username
+ 2023-04-01 12:56:19,132  INFO [main] ebanking:23 - enter password
+ 2023-04-01 12:56:20,365  INFO [main] ebanking:30 - Login test passed
+ 2023-04-01 13:03:47,919  INFO [main] ebanking:14 - URL is opened
+ 2023-04-01 13:03:48,158  INFO [main] ebanking:19 - enter username
+ 2023-04-01 13:03:48,497  INFO [main] ebanking:23 - enter password
+ 2023-04-01 13:03:49,749  INFO [main] ebanking:30 - Login test passed
+ 2023-04-01 13:35:37,510  INFO [main] ebanking:14 - URL is opened
+ 2023-04-01 13:35:37,720  INFO [main] ebanking:19 - enter username
+ 2023-04-01 13:35:37,977  INFO [main] ebanking:23 - enter password
+ 2023-04-01 13:35:39,156  INFO [main] ebanking:30 - Login test passed
+ 2023-04-01 13:36:01,245  INFO [main] ebanking:14 - URL is opened
+ 2023-04-01 13:36:01,447  INFO [main] ebanking:19 - enter username
+ 2023-04-01 13:36:01,673  INFO [main] ebanking:23 - enter password
+ 2023-04-01 13:36:02,877  INFO [main] ebanking:30 - Login test passed
+ 2023-04-01 13:36:43,642  INFO [main] ebanking:14 - URL is opened
+ 2023-04-01 13:36:43,829  INFO [main] ebanking:19 - enter username
+ 2023-04-01 13:36:44,080  INFO [main] ebanking:23 - enter password
+ 2023-04-01 13:36:45,313  INFO [main] ebanking:30 - Login test passed
+ 2023-04-01 13:37:35,472  INFO [main] ebanking:14 - URL is opened
+ 2023-04-01 13:37:35,661  INFO [main] ebanking:19 - enter username
+ 2023-04-01 13:37:35,932  INFO [main] ebanking:23 - enter password
+ 2023-04-01 13:37:37,150  INFO [main] ebanking:30 - Login test passed
+ 2023-04-01 13:41:05,085  INFO [main] ebanking:14 - URL is opened
+ 2023-04-01 13:41:05,301  INFO [main] ebanking:19 - enter username
+ 2023-04-01 13:41:05,549  INFO [main] ebanking:23 - enter password
+ 2023-04-01 13:41:07,016  INFO [main] ebanking:30 - Login test passed
+ 2023-04-01 13:46:00,443  INFO [main] ebanking:14 - URL is opened
+ 2023-04-01 13:46:00,828  INFO [main] ebanking:19 - enter username
+ 2023-04-01 13:46:00,948  INFO [main] ebanking:23 - enter password
+ 2023-04-01 13:46:02,228  INFO [main] ebanking:30 - Login test passed
+ 2023-04-01 13:49:39,698  INFO [main] ebanking:14 - URL is opened
+ 2023-04-01 13:49:39,901  INFO [main] ebanking:19 - enter username
+ 2023-04-01 13:49:40,099  INFO [main] ebanking:23 - enter password
+ 2023-04-01 13:49:41,392  INFO [main] ebanking:30 - Login test passed
+ 
