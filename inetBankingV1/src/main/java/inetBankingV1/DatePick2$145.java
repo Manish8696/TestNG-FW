@@ -12,7 +12,7 @@ public class DatePick2$145 {
 	
     public static void main(String[] args) throws Exception {
     	
-    	String dateInput="9-july-2024";
+    	String dateInput="24-april-2023";
     	
     	String dateNo=dateInput.split("-")[0];    	
     	String month=dateInput.split("-")[1];

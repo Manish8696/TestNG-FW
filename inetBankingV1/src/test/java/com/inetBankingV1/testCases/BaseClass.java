@@ -11,6 +11,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 
 import com.inetBankingV1.utilies.ReadConfig;
@@ -34,7 +35,7 @@ public class BaseClass {
 //		System.setProperty("webdriver.chrome.driver", "C:\\Users\\moolya\\Downloads\\chromedriver_win32\\chromedriver.exe");
 		
 		if(br.equals("chrome")) {
-		WebDriverManager.chromedriver().setup();
+//		WebDriverManager.chromedriver().setup();
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--remote-allow-origins=*");
 		 driver = new ChromeDriver(options);
@@ -50,7 +51,10 @@ public class BaseClass {
 		 driver.manage().window().maximize();
 		 logger = Logger.getLogger("ebanking");
 		PropertyConfigurator.configure("log4j.properties");
+		
 	}
+	
+	
 	@AfterClass
 	public void closed() {
 		driver.quit();

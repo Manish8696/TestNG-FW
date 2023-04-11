@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
-public class Week4Q5 {
+public class RadioButton_MyApproch {
 	
 public static void main(String[] args) throws InterruptedException {
 		

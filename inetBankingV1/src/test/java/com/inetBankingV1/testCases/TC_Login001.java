@@ -8,9 +8,10 @@ import com.inetBankingV1.pageObjects.LoginPage;
 public class TC_Login001 extends BaseClass{
 	
 	@Test
+	
 	public void loginTest() {
-		driver.get(baseUrl);
 		
+		driver.get(baseUrl);
 		logger.info("URL is opened");
 		
 		LoginPage lp = new LoginPage(driver);
@@ -24,16 +25,18 @@ public class TC_Login001 extends BaseClass{
 		
 		lp.clickOn();
 		
-		if(driver.getTitle().equals("Guru99 Bank Manager HomePage"))
-		{
-			Assert.assertTrue(true);
+		Assert.assertEquals(driver.getTitle(),"Guru99 Bank Manager HomePage");
+		
 			logger.info("Login test passed");
-		}
-		else {
-			Assert.assertTrue(false);
-			logger.info("Login test failed");
-		}
+		
 		
 	}
-
+@Test (dependsOnMethods={"loginTest"})
+public void logout() throws InterruptedException {
+	LoginPage lp1 = new LoginPage(driver);
+	Thread.sleep(500);
+	lp1.logout();
+	logger.info("Logout");
+//	Assert.fail("failing it");
+}
 }

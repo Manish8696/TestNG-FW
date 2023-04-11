@@ -31,8 +31,8 @@ public class DatePick$145 {
 
         
                
-        WebElement calendarFrame = driver.findElement(By.xpath("//iframe[@class='demo-frame']"));        
-        driver.switchTo().frame(calendarFrame);
+//        WebElement calendarFrame = driver.findElement(By.xpath("//iframe[@class='demo-frame']"));        
+        driver.switchTo().frame(0);
         
         driver.findElement(By.id("datepicker")).click();
         
